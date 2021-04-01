@@ -23,6 +23,7 @@ function App() {
   const SignOut = () => {
    // auth.Signout().then(() => {
       setUser(false);
+    alert("successfully loggedoff");
      // localStorage.removeItem("user");
    // });
   };
