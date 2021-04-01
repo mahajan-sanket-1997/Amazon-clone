@@ -12,8 +12,9 @@ const Login = ({setUser}) => {
       //    email: user.email,
       //    photo: user.photoURL
       //  };
-       // localStorage.setItem("user", JSON.stringify(Newuser));
+       // localStorage.setItem("usr", JSON.stringify(Newuser));
         setUser(true);
+    alert("Successfully Login");
      // })
      // .catch((error) => {
      //   alert(error.message);
